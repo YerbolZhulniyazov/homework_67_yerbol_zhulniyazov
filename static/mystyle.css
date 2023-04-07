@@ -1,0 +1,27 @@
+#notification {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#notification p {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 200px;
+}
+
+#notification .close-btn {
+    position: fixed;
+    right: 830px;
+    top: 335px;
+    cursor: pointer;
+}
